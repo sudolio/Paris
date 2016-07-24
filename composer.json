@@ -41,7 +41,7 @@
     ],
     "require": {
         "php": ">=5.2.0",
-        "martinsuly/idiorm": "dev-master"
+        "martinsuly/idiorm": "master"
     },
     "autoload": {
         "classmap": ["paris.php"]
