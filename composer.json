@@ -1,5 +1,5 @@
 {
-    "name": "martinsuly/paris",
+    "name": "ef/paris",
     "type": "library",
     "description": "A lightweight Active Record implementation for PHP5, built on top of Idiorm",
     "keywords": ["paris", "orm", "active record", "model"],
@@ -35,13 +35,19 @@
     ],
     "repositories": [
         {
-            "url": "https://github.com/martinsuly/idiorm",
+            "url": "ssh://git@git.eforms.org/ef/idiorm.git",
             "type": "vcs"
         }
     ],
     "require": {
         "php": ">=5.2.0",
-        "martinsuly/idiorm": "master"
+        "ef/idiorm": "master"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6"
     },
     "autoload": {
         "classmap": ["paris.php"]
