@@ -5,8 +5,8 @@
     "keywords": ["paris", "orm", "active record", "model"],
     "homepage": "http://j4mie.github.com/idiormandparis",
     "support": {
-        "issues": "https://github.com/martin/paris/issues",
-        "source": "https://github.com/martin/paris"
+        "issues": "https://github.com/sudolio/paris/issues",
+        "source": "https://github.com/sudolio/paris"
     },
     "authors": [
         {
@@ -35,7 +35,7 @@
     ],
     "repositories": [
         {
-            "url": "ssh://git@git.eforms.org/ef/idiorm.git",
+            "url": "https://github.com/sudolio/idiorm.git",
             "type": "vcs"
         }
     ],
