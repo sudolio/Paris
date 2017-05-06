@@ -41,7 +41,7 @@
     ],
     "require": {
         "php": ">=5.2.0",
-        "ef/idiorm": "master"
+        "sudolio/idiorm": "master"
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
